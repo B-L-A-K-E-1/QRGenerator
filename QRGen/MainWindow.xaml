@@ -1,0 +1,15 @@
+﻿<Window x:Class="QRGen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QRGen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Generuj" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.419,0.335" Click="Button_Click"/>
+        <TextBox x:Name="Text_box_vstup" HorizontalAlignment="Center" Margin="0,324,0,0" TextWrapping="Wrap" Text="Mám hlad" VerticalAlignment="Top" Width="459" SelectionBrush="#FFD71400" Background="Black"/>
+        <Image x:Name="Obrazek_vystup" HorizontalAlignment="Left" Height="291" Margin="248,10,0,0" VerticalAlignment="Top" Width="260"/>
+
+    </Grid>
+</Window>
